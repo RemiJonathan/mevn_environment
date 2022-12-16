@@ -4,9 +4,18 @@
   "description": "Full-stack MEVN environment to start building projects from",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "NODE_ENV=local node server.js",
+    "dev": "NODE_ENV=dev node server.js",
+    "preprod": "NODE_ENV=preprod node server.js",
+    "prod": "NODE_ENV=prod node server.js"
   },
-  "keywords": [],
+  "keywords": [
+    "MEVN",
+    "MongoDB",
+    "Express",
+    "Vue",
+    "Node"
+  ],
   "author": "Rémi Jonathan Choquette",
   "license": "ISC",
   "repository": {
